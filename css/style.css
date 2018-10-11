@@ -1,4 +1,8 @@
 /*text-marking for all*/
+.container{
+    height: 700;
+}
+/*text-marking for all*/
 mark{
     background-color: lightgrey;
 }
@@ -6,88 +10,139 @@ mark{
 div p{
     line-height: normal;
 }
+/*for all p first letter highlight*/
+p::first-letter{
+    font-size: 25px;
+    color: #363434;
+}
 /*main-----velohouse*/
 .row{
     margin-left: 50px;
     margin-right: 50px;
     background-color: rgb(228, 231, 230);
-    padding: 10px;
+    padding: 20px;
     height: 600px;
+    margin-bottom: 30px;
 }
-/*velohouse/heading*/
+/*column specs. for velo boxes*/
+.column{
+    background-color:white;
+       height: 400px;
+       margin-top: 60px;
+       padding: 40px;
+}
+.column1{
+    background-color:white;
+       height: 375px;
+       padding: 20px;
+}
+/*heading*/
 h1{
     font-family:Arial Black;
     margin-left: 50px;
     text-shadow: -1px 0 rgb(66, 3, 3), 0 1px rgb(70, 5, 5), 1px 0 rgb(73, 4, 4), 0 -1px rgb(61, 3, 3);
 }
-h2{
-    text-align: center;
-    font-display: underline;
-    text-shadow: 2px 2px 3px grey;
-    text-decoration-line: underline;
-    text-indent: 50px;
-    font-family: Tahoma;
-}
-/*velohouse-images-column*/
-p::first-letter{
-    font-size: 30px;
-    color: #650e0e;
-}
-.velo{
-    margin-bottom: 50px;
-}
 .image-size{
-    width: 500px;
-    padding-top: 20px;
+    width: 450px;
     box-shadow: 0px 10px 5px 0px #888888; 
-}
-.column{
-    background-color:white;
-       height: 400px;
-       margin-top: 100px;
-       display: flex;
-       justify-content: center;
-       padding: 10px;
 }
 /*velohouse/emc/fimi-text-box*/
 .card-sm-text{
     background-color:white;
-       padding: 50px;
-       box-shadow: 0px 10px 5px 0px #888888;
+    padding: 30px;
+    box-shadow: 0px 10px 5px 0px #888888;
+    text-align: left;
+}
+/*velohouse main heading text*/
+.card-header{
+    text-decoration-line: underline;
+    font-family: Tahoma;
+    font-size: 25px;
+    float: left;
+
+}
+/*velohouse-emc1-text-column*/
+.velo1 .emc1{  
+    background-color: white;
+    padding: 30px;
+}
+/*column and row specs. for emc boxes*/
+.column2{
+    background-color:white;
+       height: 480px;
+       padding: 30px;
+       text-align: center;
+}
+.column3{
+    background-color:white;
+       height: 410px;
+       margin-top: 110px;
+       padding: 25px;
+}
+.emc-row{
+    background-color: rgb(228, 231, 230);
+    height: 650px;
+}
+/*emc-fimi-main-heading*/
+.emc-text{
+    text-align: right;
+    text-decoration-line: underline;
+    font-family: Tahoma;
+    font-size: 25px;
+    margin-right: 50px;
+}
+/*hypercafe-main heading*/
+.hypercafe-text{
        text-align: left;
+       font-family: Tahoma;
+       font-size: 25px;
+       text-decoration-line: underline;
 }
-/*velohouse-text-column*/
-.velo1{
-    background-color: white;
-    padding: 15px;
-    text-align: center;
-    height: 300px;
-}
-/*emc-image-column*/
-.emc{
-    margin-bottom: 50px;
-}
-/*emc1-text-column*/
-.emc1{
-    background-color: white;
-    padding: 15px;
-    text-align: center;
-    height: 450px;
-}
-/*fimi-text-column*/
+/*ta-sats-text-column*/
 .fimi{
-    margin-bottom: 50px;
+    background-color:white;
+    margin-top: 100px;
+    padding: 30px;
+    height: 270px;
+}
+/*fimi-row*/
+.fimi-row{
+    height:550px ;
+}
+/*for ta-sats-main-text*/
+.ta-sats-text{
+    text-align: left;
+    text-decoration-line: underline;
+    font-family: Tahoma;
+    font-size: 25px;
+    position: relative;
+}
+/*for fimi-text*/
+.fimi-text{
+    text-align: left;
     height: 300px;
 }
-.fimi-row{
-    height:500px ;
+/*for fimi-main-text*/
+h2{
+    text-align:right;
+    text-decoration-line: underline;
+    font-family: Tahoma;
+    font-size: 25px;
+    margin-right: 200px;
 }
-/*fimi1-Fimi & Ta Sats-text-column*/
+/*fimi1-Fimi--text-column*/
 .fimi1{
     background-color: white;
-    padding: 15px;
     text-align: center;
-    height: 300px;
+    padding: 30px;
+}
+/*column4  for fimi boxes*/
+.column4{
+    background-color:white;
+       height: 350px;
+       padding: 30px;
+       text-align: center;
+       margin-bottom: 80px;
 }
 
 
