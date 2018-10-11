@@ -54,11 +54,11 @@ h1{
     text-align: left;
 }
 /*velohouse main heading text*/
-.card-header{
+#velotext{
     text-decoration-line: underline;
     font-family: Tahoma;
     font-size: 25px;
-    float: left;
+    text-align: left;
 
 }
 /*velohouse-emc1-text-column*/
