@@ -1,5 +1,5 @@
 
-.row{
+/*.row{
     margin-left: 50px;
     margin-right: 50px;
     background-color: rgb(228, 231, 230);
@@ -7,9 +7,9 @@
     height: 600px;
 }
 .row::after{
-    content: "";/* creates empty space- skapar tom yta */
-    clear: both; /*ger floated elements en rad sida vis sida*/
-    display: table; /*ger en ny rad*/
+    content: "";
+    clear: both;
+    display: table; 
 }
 .column{
     background-color:white;
@@ -34,10 +34,11 @@
     content: "";
     clear: both;
     display: table;
-}
+}*/
 
-@media (min-width: 320px) and (max-width: 480px) {
-    img{
-        width:50%;
+ @media (min-width: 768px) and (max-width: 1024px){
+
+    .column{
+           height: 500px;
     }
 }

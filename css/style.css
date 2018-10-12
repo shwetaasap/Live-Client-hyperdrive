@@ -147,3 +147,33 @@ h1{
 }
 
 
+@media (min-width: 768px) and (max-width: 1024px){
+
+    .column{
+           height: 300px;
+    }
+    .column1{
+           height: 460px;
+    }
+    .column2{
+           height: 700px;
+    }
+    .column4{
+           height: 450px;
+    }
+    .column5{
+           height: 550px;
+           margin-bottom: 0px;
+    }
+    .emc-row{
+        height: 750px;
+    }
+    .fimi-row{
+        height: 600px;
+    }
+    .fimi-content{
+       height: 470px;
+    }
+}
+
+
